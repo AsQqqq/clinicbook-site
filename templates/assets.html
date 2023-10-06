@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="/static/script/preloader.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/preloader.css') }}">
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/reset.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/main-assets.css') }}">
+
+        <script src="/static/script/background.js" defer></script>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Lato:wght@400;700&family=Roboto+Condensed&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+        
+        <link rel="icon" href="/static/assets/icon.png" type="image/x-icon">
+
+        <title>КлиникБук</title>
+    </head>
+    <body>
+
+        <div id="page-preloader" class="preloader">
+            <div class="loader"></div>
+        </div>
+
+          <div class="canvas">
+            <div class="wrapper">
+                <header>
+                    <div class="header">
+                        <div class="container">
+                            <div class="header__top">
+                                <div class="logotype">
+                                    <a href="http://localhost:3040/">
+                                        <img id="logotype" src="/static/assets/icon.png" alt="logotype">
+                                    </a>
+                                </div>
+
+                                <nav class="menuButton">
+                                    <ul class="header__nav-list">
+                                        <li class="header__nav-item">
+                                            <a href="http://localhost:3040/" class="header__nav-link">О нас</a>
+                                        </li>
+                                        <li class="header__nav-item">
+                                            <a href="http://localhost:3040/assets" class="header__nav-link">Соглашение</a>
+                                        </li>
+                                        <li class="header__nav-item">
+                                            <a href="https://github.com/AsQqqq/" class="header__nav-link" target="_blank">Разработчик</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                                <div class="Mainbutton">
+                                    <div id="container">
+                                        <form action="https://github.com/ppizarror/pygame-menu/releases/download/4.4.3/pygame-menu-4.4.3.tar.gz">
+                                            <div class="button">
+                                                <input class="download_button" type="submit" value="Скачать">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="main-block" >
+                        <h1 class="tn assets">
+                            Соглашение
+                        </h1>
+                        <div class="blocks mainassets">
+                            <div class="page_container">
+                                <div class="about" id="about">
+
+                                    <p class="main-assets">
+                                        Пользовательское Соглашение
+                                        Настоящее Пользовательское Соглашение (Далее Соглашение) регулирует отношения между владельцем (далее ClinicBook или Администрация) с одной стороны и пользователем сайта с другой.<br>
+                                        Сайт ClinicBook не является средством массовой информации.<br><br>
+
+                                        Используя сайт, Вы соглашаетесь с условиями данного соглашения.<br>
+                                        Если Вы не согласны с условиями данного соглашения, не используйте сайт ClinicBook!<br><br>
+
+                                        Права и обязанности сторон<br>
+                                        Пользователь имеет право:<br>
+                                        - получать информацию на сайте<br>
+                                        - создавать информацию для сайта<br>
+                                        - использовать информацию сайта в личных некоммерческих целях<br><br>
+
+                                        Администрация имеет право:<br>
+                                        - по своему усмотрению и необходимости создавать, изменять, отменять правила<br>
+                                        - ограничивать доступ к любой информации на сайте<br>
+                                        - создавать, изменять, удалять информацию<br>
+                                        - удалять учетные записи<br>
+                                        - отказывать в регистрации без объяснения причин<br><br>
+
+                                        Пользователь обязуется:<br>
+                                        - обеспечить достоверность предоставляемой информации<br>
+                                        - не нарушать работоспособность сайта<br><br>
+
+                                        Администрация обязуется:<br>
+                                        - поддерживать работоспособность сайта за исключением случаев, когда это невозможно по независящим от Администрации причинам.<br>
+                                        - осуществлять разностороннюю защиту учетной записи Пользователя<br>
+                                        - защищать информацию, распространение которой ограничено или запрещено законами путем вынесения предупреждения либо удалением учетной записи пользователя, нарушившего правила<br><br>
+
+                                        Ответственность сторон<br>
+                                        - администрация не несет никакой ответственности за достоверность информации, скопированной из других источников<br>
+                                        - администрация не несет никакой ответственности за услуги, предоставляемые третьими лицами<br>
+                                        - в случае возникновения форс-мажорной ситуации (боевые действия, чрезвычайное положение, стихийное бедствие и т. д.) Администрация не гарантирует сохранность информации, размещённой Пользователем, а также бесперебойную работу информационного ресурса<br><br>
+
+                                        Условия действия Соглашения<br>
+                                        Данное Соглашение вступает в силу при любом использовании данного сайта.<br>
+                                        Соглашение перестает действовать при появлении его новой версии.<br>
+                                        Администрация оставляет за собой право в одностороннем порядке изменять данное соглашение по своему усмотрению.<br>
+                                        При изменении соглашения, в некоторых случаях, администрация может оповестить пользователей удобным для нее способом.<br><br>
+
+
+                                        Соглашение разработано на базе юридических документов сервиса Правилль<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
