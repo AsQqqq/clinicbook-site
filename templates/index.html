@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="/static/script/preloader.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/preloader.css') }}">
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/reset.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/main.css') }}">
+
+        <script src="/static/script/background.js" defer></script>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Lato:wght@400;700&family=Roboto+Condensed&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="/static/assets/icon.png" type="image/x-icon">
+
+        <title>КлиникБук</title>
+    </head>
+    <body>
+
+        <div id="page-preloader" class="preloader">
+            <div class="loader"></div>
+        </div>
+
+          <div class="canvas">
+            <div class="wrapper">
+                <header>
+                    <div class="header">
+                        <div class="container">
+                            <div class="header__top">
+                                <div class="logotype">
+                                    <a href="#">
+                                        <img id="logotype" src="/static/assets/icon.png" alt="logotype">
+                                    </a>
+                                </div>
+
+                                <nav class="menuButton">
+                                    <ul class="header__nav-list">
+                                        <li class="header__nav-item">
+                                            <a href="#about" class="header__nav-link">О нас</a>
+                                        </li>
+                                        <li class="header__nav-item">
+                                            <a href="http://localhost:3040/download" class="header__nav-link">Соглашение</a>
+                                        </li>
+                                        <li class="header__nav-item">
+                                            <a href="https://github.com/AsQqqq/" class="header__nav-link" target="_blank">Разработчик</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                                <div class="Mainbutton">
+                                    <div id="container">
+                                        <form action="http://localhost:3040/download">
+                                            <div class="button">
+                                                <input class="download_button" type="submit" value="Скачать">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="main-block">
+                        <div class="blocks" data-simplebar>
+
+                            <div class="page_container">
+                                <div class="about" id="about">
+                                    <h1 class="tn">
+                                        Запись на приём без очередей
+                                    </h1>
+
+                                    <div class="image-content">
+                                        <img class="autho-image" src="/static/assets/autho.png" alt="imageUi1">
+                                        <img class="register-image" src="/static/assets/register.png" alt="imageUi2">
+                                    </div>
+
+                                    <p class="about-text">Устали от <span class="highlight">бесконечных</span> очередей и <span class="highlight">многочасового</span> ожидания в поликлиниках?</p>
+                                    <p class="about-main-text">Скачайте нашу программу "<span class="highlight">КлиникБук</span>" и откройте для себя мир безграничных возможностей. Это просто — введите свои данные, выберите удобную вам дату и время, и ваши предпочтения будут учтены. Забудьте о потерянном времени в ожидании, вы будете уверены в своей записи.</p>
+                                    
+                                    <div class="buttonmain">
+                                        <form action="http://localhost:3040/download">
+                                            <div class="button2">
+                                                <input class="download_button2" type="submit" value="Скачать">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
