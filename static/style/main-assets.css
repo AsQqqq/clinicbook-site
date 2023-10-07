@@ -327,3 +327,31 @@ canvas {
         scale: 0.5;
     }
 }
+@media (max-width: 333px) {
+    .mains {
+        position: absolute;
+        left: -158px;
+        scale: 0.5;
+    }
+}
+@media (max-width: 316px) {
+    .mains {
+        position: absolute;
+        left: -173px;
+        scale: 0.5;
+    }
+}
+@media (max-width: 316px) {
+    .mains {
+        position: absolute;
+        left: -125px;
+        scale: 0.4;
+    }
+}
+@media (max-width: 257px) {
+    .mains {
+        position: absolute;
+        left: -139px;
+        scale: 0.4;
+    }
+}

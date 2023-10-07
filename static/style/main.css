@@ -81,6 +81,10 @@ canvas {
 
 .about {
     float: left;
+    overflow: auto;
+    height: 500px;
+    position: fixed;
+    width: 1278px;
 }
 
 
