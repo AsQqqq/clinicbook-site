@@ -14,6 +14,17 @@ var dots = [];
 for (var i = 0; i < dotCount; i++) {
   dots.push(new dot());
 }
+window.addEventListener('resize', resizeCanvas, false);
+
+function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    maxx = document.body.clientWidth;
+    maxy = document.body.clientHeight;
+    halfx = maxx / 2;
+    halfy = maxy / 2;
+}
+
 
 // dots animation
 function render() {

@@ -5,4 +5,4 @@ if __name__ == "__main__":
     """Запуск кода"""
     if upload_route():
         print("Flask started")
-    app.run(debug=True, host="localhost", port="3040")
+    app.run(debug=True, host="192.168.0.104", port="3040")
