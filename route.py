@@ -10,10 +10,10 @@ def index() -> render_template:
     """Главная страница"""
     return render_template('index.html')
 
-@app.route('/download', methods = ['GET'])
-def download():
+@app.route('/assets', methods = ['GET'])
+def assets():
     """Главная страница"""
-    return render_template('download.html')
+    return render_template('assets.html')
 
 
 def upload_route() -> bool:
